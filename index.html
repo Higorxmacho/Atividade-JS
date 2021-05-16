@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 1 - JavaScript</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <main>
+    <form>
+      <div class="item-container">
+        <label for="original" class="label-title">Texto</label>
+        <textarea name="original" placeholder="There's Nothing Here :)" id="original" rows="10"></textarea>
+        <p class="character-counter-p">Caracteres digitados: <span id="character-counter-span">0</span></p>
+      </div>
+      <div class="item-container">
+        <label for="efeito" class="label-title">Efeito</label>
+        <select id="efeito">
+          <option value="uppercase">Maiúsculas</option>
+          <option value="lowercase">Minúsculas</option>
+          <option value="nospace">Sem Espaço Nas Extremidades</option>
+          <option value="divise">Separar Palavras Por Vírgula</option>
+        </select>
+      </div>          
+      <div class="item-container">
+        <label for="modificado" class="label-title">Modificado</label>
+        <textarea name="modificado" id="modificado" rows="10" disabled></textarea>
+      </div>
+    </form>
+  </main>
+  
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

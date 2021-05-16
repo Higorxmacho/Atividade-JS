@@ -1,0 +1,99 @@
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  color: #333333;
+}
+
+body {
+  background: #f7f7f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body,
+p {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.label-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #acacac;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+
+.character-counter-p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.item-container {
+  margin: 35px 0;
+}
+
+.TitleToOriginalText h1 {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+  font-size: 16px;
+  padding: 15px 10px;
+  outline: none;
+  border: 2px solid #ddcbe5;
+  background-color: #e9e6eb;
+  border-radius: 5px;
+}
+
+textarea::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+select#efeito {
+  border: none;
+  outline: none;
+  padding: 20px;
+  background-color: #e9e6eb;
+  border-radius: 10px;
+}
+
+input {
+  font-size: 1.5em;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 3px;
+  padding: 5px 20px;
+}
+
+@media (max-width: 1280px) {
+  form div {
+    width: 90%;
+  }
+}
